@@ -11,12 +11,13 @@
 </head>
 <body>
 <script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <form action="mailto:crystalbb00@gmail.com" method="POST" enctype="multipart/form-data" name="EmailTestForm">
   Name:<br>
     <input type="text" size="24" name="VisitorName"><br><br> 
   Message:<br>
     <textarea name="VisitorComment" rows="4" cols="20">
-    </textarea><br><br><input type="submit" value="Submit">
+    </textarea><br><br><input type="button" value="Send Email" onclick="sendEmail()">
 </form>
 </body>
 </html>
