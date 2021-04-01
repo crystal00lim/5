@@ -1,9 +1,6 @@
 function sendEmail() {
 Email.send({
-    SecureToken : "b10ed9cf-1bb7-47f8-a154-819d1617efb7",
-    Username : "crystalbb00@gmail.com",
-    Password : "Phantomh1ve",
-    Host : "smtp-relay.gmail.com",
+    SecureToken : "5e3cec41-6d3c-4872-95d5-27650e5eb7ba",
     To : 'crystal.lim.usa@gmail.com',
     From : "crystalbb00@gmail.com",
     Subject : "Test email",
